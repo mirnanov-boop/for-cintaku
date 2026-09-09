@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ahoy, Mamas! — 21st Birthday</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="app" id="app">
+    <div class="ocean-bg"></div>
+    <div class="ambient" aria-hidden="true">
+      <span class="bubble b1"></span><span class="bubble b2"></span><span class="bubble b3"></span>
+      <span class="bubble b4"></span><span class="bubble b5"></span>
+      <span class="fish f1">🐟</span><span class="fish f2">🐠</span>
+      <span class="shell">🐚</span><span class="star">⭐</span>
+    </div>
+
+    <section class="slides" id="slides">
+      <article class="slide slide1">
+        <div class="cloud c1"></div><div class="cloud c2"></div>
+        <div class="birds">⌁　⌁</div>
+        <div class="hero-ship">⛵</div>
+        <div class="hero-copy">
+          <p class="eyebrow">⚓ A SPECIAL VOYAGE FOR ⚓</p>
+          <h1>AHOY,<br><span>MAMAS!</span></h1>
+          <p class="sub">Rofil’s 21st Birthday</p>
+          <p class="tiny">The sea is calling… and today, a new adventure begins.</p>
+          <button class="btn primary" data-next>START THE ADVENTURE →</button>
+        </div>
+        <div class="wave w1"></div><div class="wave w2"></div>
+      </article>
+
+      <article class="slide slide2">
+        <div class="map-glow"></div>
+        <div class="compass">N<br><span>✦</span><br>S</div>
+        <div class="route route1"></div><div class="route route2"></div>
+        <div class="island i1">🏝️</div><div class="island i2">🌴</div>
+        <div class="card parchment">
+          <p class="eyebrow dark">WELCOME TO</p>
+          <h2>THE GRAND<br><span>LINE</span></h2>
+          <div class="age">21</div>
+          <p>Twenty-one years of stories,<br>and the best ones are still ahead.</p>
+          <button class="btn darkbtn" data-next>SAIL ON →</button>
+        </div>
+      </article>
+
+      <article class="slide slide3">
+        <div class="deck"></div>
+        <div class="logbook parchment">
+          <p class="eyebrow dark">CAPTAIN’S LOG — DAY 21</p>
+          <h2>THE<br><span>BIRTHDAY CAPTAIN</span></h2>
+          <div class="wanted">21</div>
+          <p class="wish">May your days be full of laughter,<br>good luck, warm hugs,<br>and little adventures worth remembering.</p>
+          <p class="signature">— from Via ♡</p>
+          <button class="btn darkbtn" data-next>KEEP SAILING →</button>
+        </div>
+        <div class="rope">⚓</div>
+      </article>
+
+      <article class="slide slide4">
+        <div class="sun"></div>
+        <div class="message-card glass">
+          <p class="eyebrow">A LITTLE MESSAGE FROM VIA</p>
+          <h2>For my<br><span>Mamas ♡</span></h2>
+          <p>
+            Selamat ulang tahun yang ke-21, Mamas! 🥺
+            Semoga di umur baru ini kamu selalu dikelilingi hal-hal baik,
+            orang-orang yang sayang sama kamu, dan alasan untuk terus tersenyum.
+          </p>
+          <p>
+            Makasih sudah menjadi bagian dari cerita aku.
+            Semoga perjalanan kita juga punya banyak pulau indah
+            untuk disinggahi bareng-bareng. 🌊
+          </p>
+          <p class="love">Happy 21st birthday, captain. ♡</p>
+          <button class="btn primary" data-next>FIND THE TREASURE →</button>
+        </div>
+      </article>
+
+      <article class="slide slide5">
+        <div class="treasure-sky"></div>
+        <div class="chest-wrap">
+          <div class="chest" id="chest" role="button" tabindex="0" aria-label="Buka peti harta karun">🧰</div>
+          <p class="tap">TAP THE TREASURE CHEST</p>
+        </div>
+        <div class="treasure-content hidden" id="treasureContent">
+          <div class="cake">🎂</div>
+          <h2>HAPPY BIRTHDAY,<br><span>MAMAS!</span></h2>
+          <p>Make a wish… ✨</p>
+          <button class="btn primary" id="confettiBtn">MAKE IT RAIN CONFETTI 🎉</button>
+          <button class="btn ghost" data-next>ONE LAST ISLAND →</button>
+        </div>
+      </article>
+
+      <article class="slide slide6">
+        <div class="secret-stars">✦　·　✧　·　✦　·　✧</div>
+        <div class="secret-card glass">
+          <p class="eyebrow">🏴‍☠️ SECRET ISLAND</p>
+          <h2>ONLY THE<br><span>CAPTAIN</span> MAY ENTER</h2>
+          <p class="hint">Ada satu pertanyaan kecil untuk membuka pesan rahasia…</p>
+          <label for="answer">Berapa tinggi Acu?</label>
+          <input id="answer" type="text" inputmode="numeric" autocomplete="off" placeholder="Tulis jawabanmu…" />
+          <button class="btn primary" id="unlockBtn">UNLOCK THE SECRET 🔐</button>
+          <p class="error" id="error" aria-live="polite"></p>
+          <div class="secret-message hidden" id="secretMessage">
+            <div class="seal">💌</div>
+            <h3>YOU FOUND IT!</h3>
+            <p>Aku tunggu kamu di Surabaya fil,<br>biar bisa begal date wkwk. 🏴‍☠️♡</p>
+            <p class="small">Psst… jawaban tadi cuma captain yang tahu 😉</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="slide slide7">
+        <div class="sunset"></div>
+        <div class="final-card glass">
+          <p class="eyebrow">THE REAL TREASURE</p>
+          <h2>YOU ARE<br><span>MY FAVORITE ADVENTURE.</span></h2>
+          <p>Di antara luasnya Grand Line, aku tetap akan memilih kapal yang sama untuk berlayar.</p>
+          <div class="final-icons">🌊　⚓　♡　🏝️</div>
+          <p class="final-sign">Happy 21st, Mamas.<br>Let's sail to the next chapter. ♡</p>
+          <button class="btn primary" id="restartBtn">SAIL AGAIN ↻</button>
+        </div>
+      </article>
+    </section>
+
+    <div class="dots" id="dots" aria-label="Navigasi slide"></div>
+    <button class="sound" id="soundBtn" aria-label="Toggle sound">🔇</button>
+    <div class="hint-swipe">← swipe →</div>
+  </main>
+  <audio id="oceanAudio" loop preload="auto" src="assets/ocean.mp3"></audio>
+  <script src="js/main.js"></script>
+</body>
+</html>
